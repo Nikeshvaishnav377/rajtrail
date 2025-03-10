@@ -1,14 +1,17 @@
 /* Testimonials.css */
 .testimonials {
-  background: linear-gradient(135deg, #ffcc80, #ff9800);
+  background: lavender;
   padding: 50px 20px;
   text-align: center;
   color: white;
 }
 
 .testimonials h2 {
-  font-size: 28px;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 100px 0 30px 0; 
   margin-bottom: 20px;
+  color: #d35400;
 }
 
 .testimonials-container {
@@ -21,7 +24,7 @@
 }
 
 .testimonial-card {
-  background: white;
+  background: #f96807;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -43,7 +46,6 @@
   margin-top: 10px;
   font-size: 20px;
   font-weight: bold;
-  color: #e65100;
 }
 
 @media (max-width: 768px) {
