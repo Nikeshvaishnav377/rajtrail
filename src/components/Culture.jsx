@@ -2,9 +2,9 @@ import React from "react";
 import "./Culture.css";
 
 const cultureData = [
-  { title: "Folk Music", img: "/images/folkmusic.jpg" },
-  { title: "Traditional Dance", img: "/images/traditionaldance.jpg" },
-  { title: "Rajasthani Cuisine", img: "/images/rajasthanicuisine.jpg" },
+  { title: "Folk Music", img: "/images/Folkmusic.jpg" },
+  { title: "Traditional Dance", img: "/images/Traditionaldance.jpg" },
+  { title: "Rajasthani Cuisine", img: "/images/Rajasthanicuisine.jpg" },
   { title: "Handicrafts", img: "/images/handicrafts.jpg" },
   { title: "Festivals", img: "/images/festivals.jpg" }
 ];
