@@ -1,0 +1,48 @@
+
+
+/* Culture.css */
+.culture {
+  padding: 40px;
+  text-align: center;
+  background: #f9f3e6;
+}
+
+.culture h2 {
+  font-size: 28px;
+  color: #d35400;
+  margin-bottom: 20px;
+}
+
+.culture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.culture-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.culture-card:hover {
+  transform: scale(1.05);
+}
+
+.culture-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.culture-card h3 {
+  padding: 15px;
+  font-size: 22px;
+  color: #333;
+  background: #ffd54f;
+}

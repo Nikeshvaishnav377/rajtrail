@@ -1,0 +1,26 @@
+.hero {
+    background: url(/hero-img.jpg) center center/cover;
+    margin-top: 60px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+  
+  .hero-overlay {
+    margin-top: auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+  }
+  
+  .hero p {
+    font-size: 22px;
+  }
+  
